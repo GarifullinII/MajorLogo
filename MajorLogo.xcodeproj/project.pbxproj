@@ -11,6 +11,8 @@
 		6E14D64728D5AADD00BC4919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14D64628D5AADD00BC4919 /* ContentView.swift */; };
 		6E14D64928D5AADF00BC4919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E14D64828D5AADF00BC4919 /* Assets.xcassets */; };
 		6E14D64C28D5AADF00BC4919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E14D64B28D5AADF00BC4919 /* Preview Assets.xcassets */; };
+		6E14D65328D6409600BC4919 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14D65228D6409600BC4919 /* ColorCircle.swift */; };
+		6E14D65528D6538300BC4919 /* MajorLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14D65428D6538300BC4919 /* MajorLogo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6E14D64628D5AADD00BC4919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E14D64828D5AADF00BC4919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E14D64B28D5AADF00BC4919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E14D65228D6409600BC4919 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		6E14D65428D6538300BC4919 /* MajorLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorLogo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				6E14D64428D5AADD00BC4919 /* MajorLogoApp.swift */,
 				6E14D64628D5AADD00BC4919 /* ContentView.swift */,
+				6E14D65228D6409600BC4919 /* ColorCircle.swift */,
+				6E14D65428D6538300BC4919 /* MajorLogo.swift */,
 				6E14D64828D5AADF00BC4919 /* Assets.xcassets */,
 				6E14D64A28D5AADF00BC4919 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E14D65528D6538300BC4919 /* MajorLogo.swift in Sources */,
 				6E14D64728D5AADD00BC4919 /* ContentView.swift in Sources */,
 				6E14D64528D5AADD00BC4919 /* MajorLogoApp.swift in Sources */,
+				6E14D65328D6409600BC4919 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
